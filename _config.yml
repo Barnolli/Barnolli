@@ -4,11 +4,11 @@
 
 # Site
 title: Barnolli
-subtitle:
-description:
+subtitle: 倾城
+description: 为什么没有副标题！！！老子不开心了
 keywords:
 author: Barnolli
-language: zh-CN
+language: zh-Hans
 timezone:
 
 # URL
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yilia
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -99,3 +99,12 @@ jsonContent:
       excerpt: false
       categories: false
       tags: true
+
+#添加头像地址
+avatar: 
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
